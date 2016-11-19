@@ -1,22 +1,12 @@
 {
-  "name": "node-service-template",
-  "version": "1.0.0",
-  "description": "An empty template for a NodeJS microservice",
-  "main": "index.js",
+  "name": "service",
+  "version": "0.0.1",
+  "description": "My super cool microservice",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rune-catalog/node-service-template.git"
+    "start": "src/index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rune-catalog/node-service-template/issues"
-  },
-  "homepage": "https://github.com/rune-catalog/node-service-template#readme",
+  "license": "GPL-3.0",
   "dependencies": {
     "restify": "^4.3.0"
   }
