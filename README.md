@@ -1,4 +1,5 @@
 # node-service-template
+
 An empty template for a NodeJS microservice
 
 ### Getting Started Checklist
@@ -8,5 +9,7 @@ An empty template for a NodeJS microservice
   - description
   - repository
   - author
-- Set the name of your service in containerpilot.json
+- Update [containerpilot.json](https://www.joyent.com/containerpilot/docs/configuration)
+  - Set the name of your service in the `services` section
+  - Add any dependencies of your services in the `backends` section
 - Write awesome code
